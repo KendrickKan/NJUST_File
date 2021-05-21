@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.title{
+				color: white;
+			}
+			
+			/*4、包含选择符(后代选择符)*/
+			.view1 .title{
+				background: red;
+			}
+			
+			.view2 .title{
+				background: blue;
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+		<!--
+			张三(广东省深圳市)
+			张三(广东省广州市)
+			
+			
+			快递:
+				张三(收)
+				广东省深圳市 张三(收)
+		-->
+		
+		<div class="view1">
+			<!--背景红色,字体白色-->
+			<h3 class="title">HTML</h3>
+			<p>超文本标记语言</p>
+		</div>
+		
+		
+		<br />
+		<br />
+		<div class="view2">
+			<!--背景蓝色,字体白色-->
+			<h3 class="title">CSS</h3>
+			<p>层叠样式表</p>
+		</div>
+	</body>
+</html>

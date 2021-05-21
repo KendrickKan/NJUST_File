@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon Apr 19 08:49:49 2021
+# Process ID: 3340
+# Current directory: D:/mux4_1/mux4_1/mux4_1.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/mux4_1/mux4_1/mux4_1.sim/sim_1/behav/xsim.dir/mux4_1_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/mux4_1/mux4_1/mux4_1.sim/sim_1/behav/webtalk.log
+# Journal file: D:/mux4_1/mux4_1/mux4_1.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/mux4_1/mux4_1/mux4_1.sim/sim_1/behav/xsim.dir/mux4_1_behav/webtalk/xsim_webtalk.tcl -notrace

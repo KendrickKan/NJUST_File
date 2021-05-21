@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*1、类型选择符
+			 语法:	
+			 	元素{}
+			 */
+			/* 所有的p标签样式*/
+			p{
+				color: red;
+			}
+			h1{
+				background: red;
+			}
+			
+			/*2、类别选择符(class选择器)   【类似于身份证名称 可以重复的】
+			 语法:
+			 	.class名{ }
+			 */
+			.zhangsan{
+				color: white;
+			}
+			.lisi{
+				color: blue;
+			}
+			
+			/*3、ID选择符(id选择器)		【类似于身份证中的证件号 唯一的】
+			 语法:
+			 	#id名{  }
+			 */
+			#view1{
+				width: 100px;
+				height: 100px;
+				background: red;
+			}
+			#view2{
+				width: 100px;
+				height: 100px;
+				background: blue;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		
+		<!--
+			所有学生明天穿校服;
+			
+			张三明天不用穿校服；
+			李四明天不用穿校服;
+		-->
+		<p>hello</p>
+		<p>world</p>
+		
+		<!--白色-->
+		<h1 class="zhangsan">HTML基础</h1>
+		
+		<!--蓝色-->
+		<h1 class="lisi">CSS基础</h1>
+		
+		<h1 class="zhangsan">JavaScript基础</h1>
+		
+		
+		<!--红色-->
+		<div id="view1"></div>
+		<!--蓝色-->
+		<div id="view2"></div>
+	</body>
+</html>

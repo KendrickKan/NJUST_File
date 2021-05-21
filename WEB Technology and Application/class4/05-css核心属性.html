@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box{
+				width: 300px;
+				height: 300px;
+				
+				/* 背景颜色*/
+				background-color: red;
+				
+				/* 背景图片*/
+				background-image: url(img/Snip20170413_59.png);
+				
+				/* 背景平铺方式
+				 * repeat 平铺(默认)
+				 * no-repeat 不平铺
+				 * repeat-x 水平方向平铺
+				 * repeat-y 垂直方向平铺
+				 * */
+				background-repeat: no-repeat;
+				
+				/* 背景大小*/
+				background-size: 100px 100px;
+				
+				/* 背景位置
+				 * 水平方向: left/center/right/数值
+				 * 垂直方向: top/center/bottom/数值
+				 * */
+				background-position: center center;
+			}
+			
+			
+			.bt{
+				width: 100px;
+				height: 30px;
+				color: white;
+				text-align: center;
+				line-height: 30px;
+				font-size: 14px;
+				
+				/*background-color: #eb7059;
+				background-image: url(img/bg.png);
+				background-repeat: no-repeat;
+				background-position: 10px center;*/
+				
+				background: no-repeat #eb7059 url(img/bg.png) 10px center;
+				
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="box"></div>
+		
+		<br />
+		<br />
+		<div class="bt">
+			写文章
+		</div>
+	</body>
+</html>

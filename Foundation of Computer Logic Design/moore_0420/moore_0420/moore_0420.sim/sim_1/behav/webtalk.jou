@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue May 18 11:52:43 2021
+# Process ID: 2784
+# Current directory: D:/moore_0420/moore_0420/moore_0420.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/moore_0420/moore_0420/moore_0420.sim/sim_1/behav/xsim.dir/moore_0420_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/moore_0420/moore_0420/moore_0420.sim/sim_1/behav/webtalk.log
+# Journal file: D:/moore_0420/moore_0420/moore_0420.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/moore_0420/moore_0420/moore_0420.sim/sim_1/behav/xsim.dir/moore_0420_tb_behav/webtalk/xsim_webtalk.tcl -notrace

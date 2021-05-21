@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*
+			 样式加上不去(样式无效): 
+			 	- 语法错误
+			 	- 选择元素错误
+			 	- 权重不够
+			 
+			 权重规则: 标签权重1，class权重10，id的权重100
+			 权重表达方式: 0000
+			 
+			 类型选择符: 0001
+			 class选择符: 0010
+			 id选择符: 0100
+			 伪类选择符: 0010
+			 包含选择符: 权重之和
+			 
+			 内联样式: 1000
+			 */
+			
+			#head{
+				background: purple;
+			}
+			
+			.view{
+				background: blue;
+			}
+			
+			div{
+				width: 100px;
+				height: 100px;
+				background: red;
+			}
+			
+			
+			/* 0010*/
+			.title{
+				color: white;
+			}
+			/* 0010 + 0010*/
+			.view1 .title{
+				color: blue;
+			}
+			/* 0001 + 0010*/
+			div .title{
+				color: purple;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<!--
+			权重问题
+			
+			项目经理: 往东，9点上班
+			老板: 往西，18点下班
+		-->
+		<div class="view" id="head">
+			
+		</div>
+		
+		
+		<div class="view1">
+			<p class="title" style="color: black;">html</p>
+		</div>
+	</body>
+</html>

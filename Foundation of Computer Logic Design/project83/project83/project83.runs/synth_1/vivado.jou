@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon Apr 19 09:05:24 2021
+# Process ID: 2976
+# Current directory: D:/project83/project83/project83.runs/synth_1
+# Command line: vivado.exe -log project83.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source project83.tcl
+# Log file: D:/project83/project83/project83.runs/synth_1/project83.vds
+# Journal file: D:/project83/project83/project83.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source project83.tcl -notrace

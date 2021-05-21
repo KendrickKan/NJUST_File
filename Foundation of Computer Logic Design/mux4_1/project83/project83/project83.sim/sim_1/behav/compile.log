@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project83/project83/project83.srcs/sources_1/new/project83.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project83
+WARNING: [VRFC 10-1315] redeclaration of ansi port out is not allowed [D:/project83/project83/project83.srcs/sources_1/new/project83.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project83/project83/project83.srcs/sim_1/new/project83_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project83_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project83/project83/project83.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

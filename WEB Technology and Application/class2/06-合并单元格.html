@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	
+	
+	<body>
+		<!--
+			5行4列: 有5行，每行有4个单元格
+			
+			colspan合并列
+			rowspan合并行
+		-->
+		
+		<table width="300" height="200" border="1" cellspacing="0" bordercolor="blue">
+			<!--第1行-->
+			<tr>
+				<td rowspan="2">1</td>
+				<td colspan="2" align="center">HTML</td>
+				<!--<td>3</td>-->
+				<td>4</td>
+			</tr>
+			
+			<!--第2行-->
+			<tr>
+				<!--<td>1</td>-->
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+			
+			<!--第3行-->
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td rowspan="3">4</td>
+			</tr>
+			
+			<!--第4行-->
+			<tr>
+				<td colspan="3">1</td>
+				<!--<td>2</td>-->
+				<!--<td>3</td>-->
+				<!--<td>4</td>-->
+			</tr>
+			
+			<!--第5行-->
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<!--<td>4</td>-->
+			</tr>
+		</table>
+	</body>
+</html>

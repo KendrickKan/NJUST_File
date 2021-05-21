@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/moore_0420/moore_0420/moore_0420.srcs/sources_1/new/moore_0420.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moore_0420
+WARNING: [VRFC 10-1315] redeclaration of ansi port dout is not allowed [D:/moore_0420/moore_0420/moore_0420.srcs/sources_1/new/moore_0420.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/moore_0420/moore_0420/moore_0420.srcs/sim_1/new/moore_0420_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moore_0420_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/moore_0420/moore_0420/moore_0420.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

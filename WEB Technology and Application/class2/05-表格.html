@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	
+	<body>
+		<!--
+			4行6列: 有4行，每行有6个单元格
+			
+			cellpadding: 调整内容的位置
+			align: 水平对齐方式(left/center/right)
+				table: 整个表格水平方向位置
+				tr: 对应整一行的对齐方式
+				td: 对应单元格的对齐方式
+			valign: 垂直方向(只能用于tr/td，top/middle/bottom)
+			bordercolor: 边框颜色
+		-->
+		
+		<table width="300" height="200" border="1" cellspacing="0" align="right" bordercolor="blue">
+			<!--第1行-->
+			<tr>
+				<td align="center">1</td>
+				<td valign="bottom" align="center">2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			
+			<!--第2行-->
+			<tr align="center">
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			
+			<!--第3行-->
+			<tr valign="top">
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			
+			<!--第4行-->
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+		</table>
+	</body>
+</html>

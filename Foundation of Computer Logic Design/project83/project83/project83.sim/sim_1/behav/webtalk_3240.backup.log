@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon Apr 19 08:51:33 2021
+# Process ID: 3240
+# Current directory: D:/project83/project83/project83.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/project83/project83/project83.sim/sim_1/behav/xsim.dir/project83_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/project83/project83/project83.sim/sim_1/behav/webtalk.log
+# Journal file: D:/project83/project83/project83.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/project83/project83/project83.sim/sim_1/behav/xsim.dir/project83_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 61.855 ; gain = 1.230
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 19 08:51:41 2021...

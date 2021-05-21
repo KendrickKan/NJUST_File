@@ -1,0 +1,96 @@
+/*重置样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 999px;
+	height: 100px;
+	background: red;
+	margin: 0 auto;
+}
+#header .logo{
+	width: 249px;
+	height: 31px;
+	background: white;
+	float: left;
+	margin: 39px 0 30px 19px;
+}
+#header .search{
+	width: 230px;
+	height: 29px;
+	background: black;
+	float: right;
+	margin: 39px 20px 30px 0;
+	background: #f1f1f1;
+}
+#header .search .text{
+	width: 188px;
+	height: 29px;
+	border: none;
+	background: #f1f1f1;
+	padding-left: 16px;
+	font-size: 10px;
+	float: left;
+}
+#header .search .bt{
+	width: 26px;
+	height: 29px;
+	float: left;
+	background: url() no-repeat left center;/*这里要加图片*/
+	border: none;
+}
+#nav{
+	width: 999px;
+	height: 60px;
+	background: black;
+	margin: 0 auto;
+}
+#nav ul{
+	padding-left: 25px;
+}
+#nav ul li{
+	float: left;
+	list-style: none;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	border-right: 1px solid #4a4a4a;
+	line-height: 60px;
+	font-size: 13px;
+}
+#nav ul .last{
+	border-right: none;
+}
+#nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#banner{
+	width: 999px;
+	height: 464px;
+	background: greenyellow;
+	margin: 0 auto;
+}
+#news{
+	width: 999px;
+	height: 547px;
+	background: yellow;
+	margin: 0 auto;
+}
+#news .news-1{
+	width: 999px;
+	height: 243px;
+	background: red;
+}
+#news .news-2{
+	width: 999px;
+	height: 304px;
+	background: rosybrown;
+}
+#footer{
+	width: 999px;
+	height: 332px;
+	background: gray;
+	margin: 0 auto;
+}

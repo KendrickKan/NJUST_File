@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue May 11 11:33:37 2021
+# Process ID: 1412
+# Current directory: D:/count10/count10/count10.runs/impl_1
+# Command line: vivado.exe -log count10.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source count10.tcl -notrace
+# Log file: D:/count10/count10/count10.runs/impl_1/count10.vdi
+# Journal file: D:/count10/count10/count10.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source count10.tcl -notrace

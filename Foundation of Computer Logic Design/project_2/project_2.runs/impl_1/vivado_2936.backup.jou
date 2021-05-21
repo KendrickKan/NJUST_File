@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Apr 19 10:30:31 2021
+# Process ID: 2936
+# Current directory: D:/project_2/project_2.runs/impl_1
+# Command line: vivado.exe -log project_2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source project_2.tcl -notrace
+# Log file: D:/project_2/project_2.runs/impl_1/project_2.vdi
+# Journal file: D:/project_2/project_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source project_2.tcl -notrace

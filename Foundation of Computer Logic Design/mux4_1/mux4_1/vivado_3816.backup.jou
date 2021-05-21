@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Apr 19 09:18:27 2021
+# Process ID: 3816
+# Current directory: D:/mux4_1/mux4_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3580 D:\mux4_1\mux4_1\mux4_1.xpr
+# Log file: D:/mux4_1/mux4_1/vivado.log
+# Journal file: D:/mux4_1/mux4_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/mux4_1/mux4_1/mux4_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source mux4_1.tcl
+close_sim
+launch_simulation
+source mux4_1.tcl
+file mkdir D:/mux4_1/mux4_1/mux4_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/mux4_1/mux4_1/mux4_1.srcs/sim_1/new/mux4_1_tb.v w ]
+add_files -fileset sim_1 D:/mux4_1/mux4_1/mux4_1.srcs/sim_1/new/mux4_1_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim

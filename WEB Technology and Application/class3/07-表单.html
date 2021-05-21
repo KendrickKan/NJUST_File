@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	
+	
+	<body>
+		<!--
+			表单域form
+				name: 表单域名称
+				method: 请求方式get/post
+				action: 提交URL
+		-->
+		
+		<form name="test" method="get" action="https://www.baidu.com">
+			<!--
+				1、文本域
+					type: 类型
+					placeholder: 提示文本
+					value: 输入框中内容
+			-->
+			<p>
+				账号: <input type="text" placeholder="手机号/QQ号" value="123456" />
+			</p>
+			
+			
+			<!--
+				2、密码输入框
+					type: 类型
+					placeholder: 提示文本
+					value: 输入框中内容
+			-->
+			<p>
+				密码: <input type="password" placeholder="6位密码" />
+			</p>
+			
+			
+			<!--
+				3、单选框(同一组中的只能选择一个)
+					name: 控制哪一组
+					checked: 选中
+			-->
+			<p>
+				<input type="radio" name="sex" checked="checked" />男
+				<input type="radio" name="sex"/>女
+				<input type="radio" name="sex" />中性
+			</p>
+			
+			
+			<!--
+				4、复选框
+					name: 控制哪一组
+					checked: 选中
+			-->
+			<p>
+				<input type="checkbox" name="like" />睡觉
+				<input type="checkbox" name="like" checked="checked" />吃饭
+				<input type="checkbox" name="like" />打豆豆
+			</p>
+			
+			
+			<!--
+				5、下拉菜单
+					
+			-->
+			<select>
+				<option>北京</option>
+				<option>上海</option>
+				<option>广州</option>
+				<option>深圳</option>
+			</select>
+			
+			
+			<!--
+				6、按钮
+					value: 显示
+			-->
+			<p>
+				<input type="button" value="按钮1" />
+				<input type="button" value="按钮2" />
+			</p>
+			
+			
+			<!--
+				7、提交按钮
+					提交即提交到表单域action中填写的地址
+			-->
+			<p>
+				<input type="submit" value="注册" />
+			</p>
+			
+			<!--
+				8、重置按钮
+					重置该按钮对应的表单域中
+			-->
+			<input type="reset" value="重置" />
+		</form>
+	</body>
+</html>
