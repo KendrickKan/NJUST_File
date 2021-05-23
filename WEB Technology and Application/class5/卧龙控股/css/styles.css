@@ -12,7 +12,8 @@
 #header .logo{
 	width: 249px;
 	height: 31px;
-	background: white;
+	background: url(../img/logo.png);
+	background-size: 100% 100%;
 	float: left;
 	margin: 39px 0 30px 19px;
 }
