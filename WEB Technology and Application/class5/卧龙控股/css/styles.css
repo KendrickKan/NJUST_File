@@ -6,14 +6,12 @@
 #header{
 	width: 999px;
 	height: 100px;
-	background: red;
+	background: white;
 	margin: 0 auto;
 }
 #header .logo{
 	width: 249px;
 	height: 31px;
-	background: url(../img/logo.png);
-	background-size: 100% 100%;
 	float: left;
 	margin: 39px 0 30px 19px;
 }
@@ -38,7 +36,7 @@
 	width: 26px;
 	height: 29px;
 	float: left;
-	background: url() no-repeat left center;/*这里要加图片*/
+	background: url(../img/searchbt.png) no-repeat left center;/*这里要加图片*/
 	border: none;
 }
 #nav{
