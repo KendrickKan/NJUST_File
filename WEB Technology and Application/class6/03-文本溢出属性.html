@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.info1{
+				height: 20px;
+				background: red;
+				
+				/* 文本溢出属性*/
+				/*text-overflow: clip;*/
+				
+				width: 300px;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			
+			ul li{
+				/* 1、给盒子设置宽度*/
+				width: 300px;
+				/* 2、强制显示为一行*/
+				white-space: nowrap;
+				/* 3、超出部分隐藏*/
+				overflow: hidden;
+				/* 4、文本溢出属性*/
+				text-overflow: ellipsis;
+			}
+			ul li a{
+				text-decoration: none;
+				color: black;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p class="info1">
+			你可以不聪明，但你不可以不努力。
+			你可以不聪明，但你不可以不努力。
+		</p>
+		
+		
+		<br />
+		<br />
+		<br />
+		<ul>
+			<li> <a href="#">广东今年春运情况广东今年春运情况广东....春运情况</a> </li>
+			<li> <a href="#">广广东今年春运情况广东今年春运情况广东今年春运情况</a> </li>
+			<li> <a href="#">广东今年春运情况广东今年春情况广东今年春运情况</a> </li>
+			<li> <a href="#">广东今年春运情况广东今年春运情况广东今年春运情况广东今年春运情况</a> </li>
+			<li> <a href="#">广东今年春运情况广东今年春运情况广东今年春运情况广东今年春运情况</a> </li>
+		</ul>
+	</body>
+</html>

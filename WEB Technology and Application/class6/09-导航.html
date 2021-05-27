@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.nav{
+				width: 900px;
+				height: 20px;
+				margin: 30px auto 0;
+				border-bottom: 8px solid #de4b15;
+				padding-left: 20px;
+			}
+			
+			.nav li{
+				float: left;
+				list-style: none;
+				margin-right: 2px;
+			}
+			.nav li a{
+				display: block;
+				text-decoration: none;
+				width: 80px;
+				height: 20px;
+				text-align: center;
+				line-height: 20px;
+				background: #dfdfdf;
+				color: black;
+				font-size: 10px;
+			}
+			.nav li a:hover{
+				background: #de4b15;
+				color: white;
+			}
+			
+			/* 隐藏设置*/
+			.nav li a b{
+				display: none;
+			}
+			/* 鼠标移入显示*/
+			.nav li a:hover b{
+				display: block;
+			}
+			.nav li a:hover span{
+				display: none;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="nav">
+			<ul>
+				<!-- span和b  显示一个-->
+				<li> <a href="#"> <span>Home</span> <b>首页</b> </a> </li>
+				<li> <a href="#"> <span>Home</span> <b>首页</b> </a> </li>
+				<li> <a href="#"> <span>Home</span> <b>首页</b> </a> </li>
+				<li> <a href="#"> <span>Home</span> <b>首页</b> </a> </li>
+				<li> <a href="#"> <span>Home</span> <b>首页</b> </a> </li>
+				<li> <a href="#"> <span>Home</span> <b>首页</b> </a> </li>
+			</ul>
+		</div>
+	</body>
+</html>

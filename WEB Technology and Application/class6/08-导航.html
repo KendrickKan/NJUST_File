@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.box{
+				width: 1000px;
+				height: 42px;
+				background: #fdaf17;
+				margin: 50px auto 0;
+			}
+			.box li{
+				float: left;
+				list-style: none;
+				/*border-right: 1px solid gray;*/
+				
+				/* 调整盒子大小*/
+				padding-right: 2px;
+				background: url(img/nav1-2.png) no-repeat right center;
+			}
+			.box li a{
+				text-decoration: none;
+				color: gray;
+				padding: 0 50px;
+				height: 37px;
+				line-height: 37px;
+				background: url(img/nav1-1.png);
+				display: block;
+			}
+			
+			.box li a:hover{
+				background: #fdaf17;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="box">
+			<ul>
+				<li> <a href="#">Home</a> </li>
+				<li> <a href="#">About us</a> </li>
+				<li> <a href="#">Services</a> </li>
+				<li> <a href="#">Clients</a> </li>
+				<li> <a href="#">Potfolio</a> </li>
+				<li style="border: none;"> <a href="#">Contact us</a> </li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.view1{
+				width: 300px;
+				height: 100px;
+				background: red;
+				margin: 30px;
+				float: left;
+			}
+			.view2{
+				width: 300px;
+				height: 100px;
+				background: blue;
+				margin: 50px;
+				float: left;
+			}
+			
+			
+			.box{
+				width: 400px;
+				height: 400px;
+				background: red;
+				
+				/* 避免受到小盒子影响*/
+				overflow: hidden;
+			}
+			.smallBox{
+				width: 200px;
+				height: 200px;
+				background: blue;
+				
+				/* 垂直方向不生效，而且大盒子会受到影响*/
+				margin: 100px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<!--问题: 上下都有margin值时，取最大的那个值
+			margin-bottom: 30px;
+			margin-top: 50px;
+			
+			解决: 设置浮动
+		-->
+		<!--<div class="view1"></div>-->
+		<!--<div class="view2"></div>-->
+		
+		<div class="box">
+			<div class="smallBox"></div>
+		</div>
+	</body>
+</html>
