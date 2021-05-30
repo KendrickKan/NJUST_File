@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box{
+				width: 100px;
+				height: 100px;
+				background: red;
+				
+				/* 定位 
+				 static: 默认值，无特殊定位
+				 absolute: 绝对定位
+				 relative: 相对定位
+				 fixed: 固定定位
+				 */
+				
+				/*absolute: 绝对定位
+				  - 脱离文档流
+				  - 相对于谁(不固定)
+				  
+				  
+				  往是上找(包含关系)，找有定位属性；
+				  如果都没有，即相对于body
+				 */
+				position: absolute;
+				
+				/* 距离: left/right/top/bottom*/
+				/*left: 100px;*/
+				right: 50px;
+				bottom: 70px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="box"></div>
+	</body>
+</html>
