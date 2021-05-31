@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style: none;
+			}
+			
+			.box{
+				width: 320px;
+				height: 310px;
+				border: 1px solid gray;
+				margin: 40px auto 0;
+				
+				/* 包含块*/
+				position: relative;
+			}
+			.box .imgeView{
+				width: 320px;
+				height: 310px;
+				/* 超出部分隐藏*/
+				overflow: hidden;
+			}
+			.box .imgeView img{
+				width: 320px;
+				height: 310px;
+			}
+			
+			.box .pageView{
+				width: 180px;
+				height: 25px;
+				
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+			.box .pageView a{
+				width: 25px;
+				height: 25px;
+				float: left;
+				background: rgba(1,1,1,0.5);
+				margin-left: 5px;
+				text-align: center;
+				line-height: 25px;
+				text-decoration: none;
+				color: white;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="box">
+			<!--图片-->
+			<ul class="imgeView">
+				<li id="img1"> <img src="img/images-1.png" /> </li>
+				<li id="img2"> <img src="img/images-2.png" /> </li>
+				<li id="img3"> <img src="img/images-3.png" /> </li>
+				<li id="img4"> <img src="img/images-4.png" /> </li>
+				<li id="img5"> <img src="img/images-5.png" /> </li>
+				<li id="img6"> <img src="img/images-6.png" /> </li>
+			</ul>
+			
+			<!--下标-->
+			<ul class="pageView">
+				<li> <a href="#img1">1</a> </li>
+				<li> <a href="#img2">2</a> </li>
+				<li> <a href="#img3">3</a> </li>
+				<li> <a href="#img4">4</a> </li>
+				<li> <a href="#img5">5</a> </li>
+				<li> <a href="#img6">6</a> </li>
+			</ul>
+		</div>
+	</body>
+</html>

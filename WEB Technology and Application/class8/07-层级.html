@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/* z-index: number
+			 值大 在上
+			 */
+			div{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+			}
+			.view1{
+				background: red;
+				left: 10px;
+				top: 10px;
+				z-index: 99;
+			}
+			.view2{
+				background: blue;
+				left: 20px;
+				top: 20px;
+				z-index: 100;
+			}
+			.view3{
+				background: gray;
+				left: 30px;
+				top: 30px;
+				z-index: 97;
+			}
+			.view4{
+				background: purple;
+				left: 40px;
+				top: 40px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="view1"></div>
+		<div class="view2"></div>
+		<div class="view3"></div>
+		<div class="view4"></div>
+	</body>
+</html>

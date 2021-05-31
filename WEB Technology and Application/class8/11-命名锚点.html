@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.view{
+				width: 1000px;
+				height: 300px;
+				border: 1px solid gray;
+				margin: 20px auto;
+				
+				text-align: center;
+				line-height: 300px;
+				font-size: 50px;
+			}
+			
+			.box{
+				width: 40px;
+				height: 270px;
+				position: fixed;
+				left: 0;
+				top: 130px;
+			}
+			.box a{
+				display: block;
+				text-decoration: none;
+				color: white;
+				background: red;
+				border: 1px solid white;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<!--
+			命名锚点，页面制作中超级链接(命名锚记)。一个迅速定位器。
+			【同一页面中】
+			
+			给定义命名锚点:
+				<标签 id="命名锚点"></标签>
+			命名锚点链接:
+				<a href="#命名锚点名称"></a>
+		-->
+		
+		<div class="view" id="view1">1</div>
+		<div class="view" id="view2">2</div>
+		<div class="view" id="view3">3</div>
+		<div class="view" id="view4">4</div>
+		<div class="view" id="view5">5</div>
+		<div class="view" id="view6">6</div>
+		<div class="view" id="view7">7</div>
+		<div class="view" id="view8">8</div>
+		<div class="view" id="view9">9</div>
+		
+		<div class="box">
+			<a href="#view1">1楼</a>
+			<a href="#view2">2楼</a>
+			<a href="#view3">3楼</a>
+			<a href="#view4">4楼</a>
+			<a href="#view5">5楼</a>
+			<a href="#view6">6楼</a>
+			<a href="#view7">7楼</a>
+			<a href="#view8">8楼</a>
+			<a href="#view9">9楼</a>
+		</div>
+	</body>
+</html>

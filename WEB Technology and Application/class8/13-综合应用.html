@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style: none;
+			}
+			
+			.box{
+				width: 520px;
+				height: 408px;
+				background: gray;
+				margin: 50px auto 0;
+			}
+			.box .title{
+				height: 55px;
+				line-height: 55px;
+				text-align: center;
+				color: white;
+			}
+			.box .content{
+				/* 44*/
+				width: 476px;
+				height: 298px;
+				/*background: red;*/
+				margin: 0 auto;
+			}
+			.box .content .bigView{
+				width: 400px;
+				height: 298px;
+				/*background: blue;*/
+				float: left;
+				overflow: hidden;
+			}
+			.box .content .bigView img{
+				width: 400px;
+				height: 298px;
+			}
+			.box .content .smallView{
+				width: 64px;
+				height: 298px;
+				/*background: purple;*/
+				float: right;
+				overflow: auto;
+			}
+			.box .content .smallView img{
+				width: 62px;
+				float: left;
+				margin-bottom: 4px;
+				border: 1px solid white;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="box">
+			<h3 class="title">相册</h3>
+			<div class="content">
+				<ul class="bigView">
+					<li id="img1"> <img src="img/mn1.jpg" /> </li>
+					<li id="img2"> <img src="img/mn2.jpg" /> </li>
+					<li id="img3"> <img src="img/mn3.jpg" /> </li>
+					<li id="img4"> <img src="img/mn4.jpg" /> </li>
+					<li id="img5"> <img src="img/mn5.jpg" /> </li>
+					<li id="img6"> <img src="img/mn6.jpg" /> </li>
+					<li id="img7"> <img src="img/mn7.jpg" /> </li>
+					<li id="img8"> <img src="img/mn8.jpg" /> </li>
+				</ul>
+				
+				<ul class="smallView">
+					<li> <a href="#img1"> <img src="img/c1.jpg" /> </a> </li>
+					<li> <a href="#img2"> <img src="img/c2.jpg" /> </a> </li>
+					<li> <a href="#img3"> <img src="img/c3.jpg" /> </a> </li>
+					<li> <a href="#img4"> <img src="img/c4.jpg" /> </a> </li>
+					<li> <a href="#img5"> <img src="img/c5.jpg" /> </a> </li>
+					<li> <a href="#img6"> <img src="img/c6.jpg" /> </a> </li>
+					<li> <a href="#img7"> <img src="img/c7.jpg" /> </a> </li>
+					<li> <a href="#img8"> <img src="img/c8.jpg" /> </a> </li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
