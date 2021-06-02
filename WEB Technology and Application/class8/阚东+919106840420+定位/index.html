@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.miaodian{
+				width: 40px;
+				height: 270px;
+				position: fixed;
+				left: 0;
+				top: 130px;
+			}
+			.miaodian a{
+				display: block;
+				text-decoration: none;
+				color: white;
+				background: #87CEEB;
+				border: 1px solid white;
+			}
+			.box{
+				width: 500px;
+				height: 150px;
+				border: 1px solid gray;
+				margin: 10px auto;
+				
+				text-align: center;
+				line-height: 150px;
+				font-size: 50px;
+			}
+			.box .view{
+				width: 500px;
+				height: 150px;
+				float: left;
+				background: wheat;
+				
+				/* 包含块*/
+				position: relative;
+			}
+			.box .view img{
+				width: 500px;
+				height: 150px;
+			}
+			.box .view i{
+				display: block;
+				width: 19px;
+				height: 20px;
+				background: url(img/shop1.png);
+				position: absolute;
+				left: 20px;
+				bottom: 20px;
+			}
+			.box .view:hover i{
+				background: url(img/shop1.png);
+				z-index: 99;
+			}
+			
+			.box .view .bgView{
+				width: 500px;
+				height: 150px;
+				background: rgba(1,1,1,0.4);
+				color: white;
+				
+				position: absolute;
+				left: 0;
+				top: 0;
+				
+				/* 元素不显示: 
+				 * display: none;
+				 * 宽度或高度为0；
+				 * 透明度为0
+				 * */
+				display: none;
+			}
+			.box .view:hover .bgView{
+				display: block;
+			}
+			.box .xiangce{
+				width: 500px;
+				height: 150px;
+				border: 1px solid gray;
+				/* margin: 40px auto 0; */
+				
+				/* 包含块*/
+				position: relative;
+			}
+			.box .xiangce .imgeView{
+				width: 500px;
+				height: 150px;
+				/* 超出部分隐藏*/
+				overflow: hidden;
+			}
+			.box .xiangce .imgeView img{
+				width: 500px;
+				height: 150px;
+			}
+			
+			.box .xiangce .pageView{
+				width: 500px;
+				height: 30px;
+				
+				position: absolute;
+				right: -280px;
+				bottom: 0;
+			}
+			.box .xiangce .pageView a{
+				width: 30px;
+				height: 30px;
+				font-size: 30px;
+				float: left;
+				background: rgba(1,1,1,0.5);
+				margin-left: 5px;
+				text-align: center;
+				line-height: 30px;
+				text-decoration: none;
+				color: white;
+				
+			}
+		</style>
+	</head>
+	
+	<body>
+
+		<div class="box" id="view1">
+			<!-- <div class="view">
+			<img class="bigImg" src="img/cselogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">计算机科学与技术</div>
+			</div> -->
+			<div class="xiangce">
+				<!--图片-->
+				<ul class="imgeView">
+					<li id="img1"> <img src="img/cselogo.png" /> </li>
+					<li id="img2"> <img src="img/njustlogo.png" /> </li>
+					<li id="img3"> <img src="img/cselogo.png" /> </li>
+					<li id="img4"> <img src="img/njustlogo.png" /> </li>
+					<li id="img5"> <img src="img/cselogo.png" /> </li>
+				</ul>
+				
+				<!--下标-->
+				<ul class="pageView">
+					<li style="list-style-type:none;"> <a href="#img1">1</a> </li>
+					<li style="list-style-type:none;"> <a href="#img2">2</a> </li>
+					<li style="list-style-type:none;"> <a href="#img3">3</a> </li>
+					<li style="list-style-type:none;"> <a href="#img4">4</a> </li>
+					<li style="list-style-type:none;"> <a href="#img5">5</a> </li>
+				</ul>
+			</div>
+		</div>
+		<div class="box" id="view2">
+			<div class="view">
+			<img class="bigImg" src="img/njustlogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">南京理工大学</div>
+			</div>
+		</div>
+		<div class="box" id="view3">
+			<div class="view">
+			<img class="bigImg" src="img/cselogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">计算机科学与技术</div>
+			</div>
+		</div>
+		<div class="box" id="view4">
+			<div class="view">
+			<img class="bigImg" src="img/njustlogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">南京理工大学</div>
+			</div>
+		</div>
+		<div class="box" id="view5">
+			<div class="view">
+			<img class="bigImg" src="img/cselogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">计算机科学与技术</div>
+			</div>
+		</div>
+		<div class="box" id="view6">
+			<div class="view">
+			<img class="bigImg" src="img/njustlogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">南京理工大学</div>
+			</div>
+		</div>
+		<div class="box" id="view7">
+			<div class="view">
+			<img class="bigImg" src="img/cselogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">计算机科学与技术</div>
+			</div>
+		</div>
+		<div class="box" id="view8">
+			<div class="view">
+			<img class="bigImg" src="img/njustlogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">南京理工大学</div>
+			</div>
+		</div>
+		<div class="box" id="view9">
+			<div class="view">
+			<img class="bigImg" src="img/cselogo.png" />
+			<i class="smallImage"></i>
+			<div class="bgView">计算机科学与技术</div>
+			</div>
+		</div>
+		
+		<div class="miaodian">
+			<a href="#view1">概览</a>
+			<a href="#view2">Pic 1</a>
+			<a href="#view3">Pic 2</a>
+			<a href="#view4">Pic 3</a>
+			<a href="#view5">Pic 4</a>
+			<a href="#view6">Pic 5</a>
+			<a href="#view7">Pic 6</a>
+			<a href="#view8">Pic 7</a>
+			<a href="#view9">Pic 8</a>
+		</div>
+	</body>
+</html>
