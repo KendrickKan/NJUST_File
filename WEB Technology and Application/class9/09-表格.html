@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			table{
+				width: 600px;
+				height: 240px;
+				border: 1px solid blue;
+				margin: 30px auto 0;
+				border-spacing: 0;
+				
+				/* left、right只有火狐识别*/
+				caption-side: top;
+			}
+			
+			table caption{
+				line-height: 40px;
+				font-size: 20px;
+			}
+			table thead{
+				background: blue;
+				color: white;
+				text-align: center;
+			}
+			table tbody td{
+				font-size: 12px;
+				text-align: center;
+			}
+			table tbody .title td{
+				text-align: left;
+				background: #7e9de5;
+				color: white;
+			}
+			/* 隔行变色
+			 单: tr:nth-child(2n+1)
+			 双: tr:nth-child(2n)
+			 */
+			table tbody tr:nth-child(2n+1){
+				background: #fef0f5;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<table>
+			<caption>2018全国非邮发报刊联合征订目录</caption>
+			
+			<!--表头-->
+			<thead>
+				<tr>
+					<td>代号</td>
+					<td>刊名</td>
+					<td>刊期</td>
+					<td>出版地</td>
+					<td>年定价</td>
+					<td>CN号</td>
+				</tr>
+			</thead>
+			
+			<!--表体-->
+			<tbody>
+				<tr class="title">
+					<td colspan="6">A马列主义毛泽东思想</td>
+					<!--<td>2</td>-->
+					<!--<td>3</td>-->
+					<!--<td>4</td>-->
+					<!--<td>5</td>-->
+					<!--<td>6</td>-->
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr class="title">
+					<td colspan="6">A马列主义毛泽东思想</td>
+					<!--<td>2</td>-->
+					<!--<td>3</td>-->
+					<!--<td>4</td>-->
+					<!--<td>5</td>-->
+					<!--<td>6</td>-->
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>马克思主义研究</td>
+					<td>月刊</td>
+					<td>北京</td>
+					<td>144.0</td>
+					<td>11-3911</td>
+				</tr>
+			</tbody>
+			
+			<!--表尾-->
+			<tfoot></tfoot>
+		</table>
+	</body>
+</html>

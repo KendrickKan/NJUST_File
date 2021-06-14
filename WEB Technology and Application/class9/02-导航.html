@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul{
+				width: 248px;
+				height: 22px;
+				margin: 30px auto 0;
+			}
+			li{
+				list-style: none;
+				float: left;
+			}
+			li a{
+				height: 22px;
+				line-height: 22px;
+				width: 62px;
+				text-align: center;
+				text-decoration: none;
+				color: black;
+				font-size: 12px;
+				display: block;
+				
+				/* 背景都是同一张*/
+				background: url(img/01-bg.gif);
+			}
+			
+			.tab1 a{
+				background-position: 0 0;
+			}
+			.tab2 a{
+				background-position: -62px 0;
+			}
+			.tab3 a{
+				background-position: -124px 0;
+			}
+			.tab4 a{
+				background-position: -186px 0;
+			}
+			
+			li:hover a{
+				background-position-y: -22px;
+				color: white;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<ul>
+			<li class="tab1"> <a href="#">首页</a> </li>
+			<li class="tab2"> <a href="#">新闻</a> </li>
+			<li class="tab3"> <a href="#">娱乐</a> </li>
+			<li class="tab4"> <a href="#">体育</a> </li>
+		</ul>
+	</body>
+</html>

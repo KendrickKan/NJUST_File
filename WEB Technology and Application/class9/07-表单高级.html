@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			fieldset{
+				border: 0;
+				border-top: 1px solid #c9dca6;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<form>
+			<!-- 表单字段集-->
+			<fieldset>
+				
+				<!-- 字段级标题-->
+				<legend>个人信息</legend>
+				
+				<p>
+					<!-- required必填属性-->
+					<label for="user">姓名*</label>
+					<input id="user" type="text" required="required" />
+				</p>
+				<p>
+					<label for="address">地址*</label>
+					<input id="address" type="text" required="required" />
+				</p>
+				<p>
+					<label for="birth">出生*</label>
+					<select id="birth">
+						<option>1</option>
+						<option>2</option>
+					</select>
+					<select>
+						<option>01</option>
+						<option>02</option>
+					</select>
+					<select>
+						<option>2017</option>
+						<option>2018</option>
+					</select>
+				</p>
+				<p>
+					<label for="sex">性别*</label>
+					<select>
+						<option>男</option>
+						<option>女</option>
+					</select>
+				</p>
+			</fieldset>
+			
+			<fieldset>
+				<legend>其他信息</legend>
+				
+				<fieldset>
+					<legend>你喜欢这个表单吗</legend>
+					<input type="radio" name="like" />喜欢
+					<input type="radio" name="like" />不喜欢
+				</fieldset>
+				
+				<fieldset>
+					<legend>你喜欢什么运动?</legend>
+					<input type="checkbox" />篮球
+					<input type="checkbox" />足球
+					<input type="checkbox" />排球
+				</fieldset>
+				
+				<fieldset>
+					<legend>写下你的建议?</legend>
+					<textarea></textarea>
+				</fieldset>
+				
+				<input type="file" multiple="multiple" value="上传" />
+				
+				<input type="submit" value="提交个人信息" />
+			</fieldset>
+		</form>
+	</body>
+</html>

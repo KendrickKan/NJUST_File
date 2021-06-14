@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.table1{
+				width: 300px;
+				height: 300px;
+				
+				/* 单元格间距*/
+				border-spacing: 0;
+				/* 合并相邻单元格边框*/
+				border-collapse: collapse;
+			}
+			
+			.table1 td{
+				border:  1px solid gray;
+			}
+			
+			.table2{
+				width: 300px;
+				height: 90px;
+				
+				border-spacing: 0;
+				border-collapse: collapse;
+				border: 3px solid black;
+			}
+			.table2 td{
+				border: 1px solid gray;
+			}
+			
+			
+			.table3{
+				width: 300px;
+				height: 90px;
+				border-spacing: 0;
+				/*border-collapse: collapse;*/
+				border: 1px solid gray;
+				padding: 3px;
+			}
+			.table3 td{
+				border: 1px solid gray;
+			}
+			
+			
+			.table4{
+				width: 300px;
+				height: 90px;
+				border-spacing: 5px;
+			}
+			.table4 td{
+				border: 1px solid gray;
+			}
+			
+			.table5{
+				width: 300px;
+				height: 90px;
+				border-spacing: 0;
+			}
+			.table5 td{
+				border-bottom: 1px solid gray;
+			}
+			
+			.table6{
+				width: 700px;
+				height: 200px;
+				text-align: center;
+				border-spacing: 0;
+				
+				/* 无内容时，单元格设置*/
+				empty-cells: hide;
+			}
+			.table6 td{
+				border: 1px solid white;
+				background: purple;
+				color: white;
+				width: 98px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h3>06-日历效果</h3>
+		<table class="table6">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>13</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+		<h3>05-单线表格</h3>
+		<table class="table5">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+		</table>
+		
+		<h3>04-宫字格</h3>
+		<table class="table4">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+		<h3>03-双线表格</h3>
+		<table class="table3">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+		<h3>02-粗框细线表格</h3>
+		<table class="table2">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+		<h3>01-细线表格</h3>
+		<table class="table1">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

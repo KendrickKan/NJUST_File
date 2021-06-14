@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.box{
+				width: 1000px;
+				/*height: 100px;*/
+				height: 42px;
+				padding-top: 58px;
+				margin: 40px auto 0;
+				padding-left: 30px;
+				background: black;
+			}
+			
+			li{
+				float: left;
+				list-style: none;
+				margin-right: 5px;
+				height: 42px;
+				line-height: 42px;
+				
+				/*padding: 0 10px;*/
+				/*background: red;*/
+			}
+			li a{
+				text-decoration: none;
+				font-size: 15px;
+				color: white;
+				display: block;
+				/*padding: 0 10px;*/
+				
+				background: url(img/tab-left.gif) no-repeat;
+				/* 父元素背景被挡住了
+				 padding-left撑开的位置，就是给背景显示的
+				 */
+				padding-left: 4px;
+			}
+			li a span{
+				padding: 0 10px;
+				height: 42px;
+				display: block;
+				background: url(img/tab-right.gif) no-repeat right top;
+			}
+			
+			
+			li a:hover{
+				background-position-y: -42px;
+			}
+			li a:hover span{
+				background-position-y: -42px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="box">
+			<ul>
+				<!--
+					为什么要添加一个span元素？
+						因为要设置两个背景，就需要两个标签
+						
+						
+					父元素的大小，可以通过子元素来撑开
+				-->
+				<li> <a href="#"> <span>首页</span> </a> </li>
+				<li> <a href="#"> <span>关于我们</span> </a> </li>
+				<li> <a href="#"> <span>加入我们吧</span> </a> </li>
+				<li> <a href="#"> <span>设置</span> </a> </li>
+				<li> <a href="#"> <span>联系方式QQ</span> </a> </li>
+			</ul>
+		</div>
+	</body>
+</html>

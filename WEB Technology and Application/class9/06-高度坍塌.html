@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			.box{
+				/* 高度可以通过内容撑开*/
+				background: black;
+				
+				
+				/* 方式一*/
+				/*overflow: hidden;*/
+			}
+			
+			.view1{
+				width: 100px;
+				height: 100px;
+				background: red;
+				
+				float: left;
+			}
+			.view2{
+				width: 200px;
+				height: 200px;
+				background: blue;
+				
+				float: left;
+			}
+			
+			/* 方式二: 在高度坍塌内，最后添加一个元素，并清除改元素浮动*/
+			.clear{
+				clear: both;
+			}
+			
+			/* 方式三(推荐使用)*/
+			.clearfix:after{
+				content: "";
+				clear: both;
+				display: block;
+				overflow: hidden;
+				visibility: hidden;
+				height: 0;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<!-- 高度坍塌-->
+		<div class="box clearfix">
+			<div class="view1"></div>
+			<div class="view2"></div>
+			
+			<!--<div class="clear"></div>-->
+		</div>
+		
+		
+		<!-- 高度坍塌-->
+		<div class="nav clearfix"></div>
+		
+		<!-- 高度坍塌-->
+	</body>
+</html>
