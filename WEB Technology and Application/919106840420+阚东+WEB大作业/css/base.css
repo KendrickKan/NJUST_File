@@ -26,7 +26,8 @@ b,strong{
 }
 #header{
 	width: 100%;
-	background: black;
+	border-bottom: 8px solid #1f4e78;
+/* 	background: black; */
 }
 #header .header-content{
 	width: 1100px;
@@ -35,7 +36,7 @@ b,strong{
 	background: #fefefe;
 }
 #header .header-content .logo{
-	width: 500px;
+	width: 490px;
 	height: 104px;
 	/* background: blue; */
 	float: left;
@@ -55,10 +56,84 @@ b,strong{
 	font-size: 16px;
 	font-style: italic;
 	color: #898988;
+	text-align: center;
 }
 #header .header-content .nav{
-	width: 600px;
-	height: 104px;
-	background: purple;
+	width: 550px;
+	height: 73px;
+	/* background: purple; */
 	float: right;
+	padding-top: 31px;
+	padding-left: 30px;
+}
+#header .header-content .nav ul li{
+	float: left;
+	width: 100px;
+	height: 73px;
+	line-height: 73px;
+	text-align: center;
+	border-radius: 12px 12px 0 0;
+	margin-right: 6px;
+	font-size: 17px;
+}
+#header .header-content .nav ul li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	width: 100px;
+	height: 73px;
+	text-align: center;
+	line-height: 70px;
+	/* background: #dfdfdf; */
+	margin-top: 0px;
+	border-radius: 10px 10px 0 0;
+/* 	width: 88px;
+	height: 73px;
+	display: block;
+	text-align: center;
+	line-height: 73px; */
+}
+#header .header-content .nav ul li .active{
+	background: #1f4e78;
+	color: white;
+}
+#header .header-content .nav ul li a:hover{
+	color: white;
+	background: #1f4e78;
+	margin-top: 5px;
+}
+#header .header-content .nav ul li a b
+{
+	display: none;
+}
+#header .header-content .nav ul li a:hover b
+{
+	display: block;
+}
+#header .header-content .nav ul li a:hover span
+{
+	display: none;
+}
+/* #header .header-content .nav .active{
+	background: #87CEEB;
+}
+#header .header-content .nav .active a{
+	color: white;
+} */
+#footer{
+	width: 100%;
+	height: 110px;
+	padding-top: 28px;
+	text-align: center;
+	background-color: #1f4e78;
+}
+#footer p{
+	line-height: 30px;
+	font-size: 13px;
+	color: white;
+}
+#footer p a{
+	font-size: 13px;
+	color: white;
+	margin: 8px;
 }
