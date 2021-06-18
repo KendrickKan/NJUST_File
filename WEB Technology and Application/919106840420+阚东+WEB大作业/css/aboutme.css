@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #89898b;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+b,
+strong {
+	font-weight: normal;
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+}
+
+#main-content .myself {
+	width: 100%;
+	height: 450px;
+	background: #1f4e78;
+	padding-top: 55px;
+	text-align: center;
+}
+
+#main-content .myself .title a {
+	color: white;
+	font-size: 24px;
+	line-height: 42px;
+}
+
+#main-content .myself .detail {
+	color: white;
+	font-size: 13px;
+	line-height: 52px;
+}
+
+#main-content .myself .show {
+	width: 1100px;
+	padding-top: 70px;
+	/* background: #008000; */
+	margin: 0 auto;
+}
+
+#main-content .myself .show .section {
+	width: 340px;
+	height: 166px;
+	float: left;
+	background: #d0d0d0;
+	position: relative;
+	padding-top: 94px;
+	border-radius: 20px;
+}
+
+#main-content .myself .show .section i {
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	left: 105px;
+	top: -65px;
+	/* border-radius: 65px; */
+	/* display: inline-block; */
+}
+
+#main-content .myself .show .section i img {
+	border-radius: 65px;
+	/* display: inline-block; */
+}
+
+#main-content .myself .show .section h4 {
+	font-size: 17px;
+	color: #f75a53;
+	line-height: 45px;
+}
+
+#main-content .myself .show .section p {
+	font-size: 13px;
+	line-height: 30px;
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#main-content .food .box {
+	width: 1000px;
+	height: 474px;
+	margin: 50px auto 0;
+}
+
+#main-content .food .box dl {
+	width: 198px;
+	height: 237px;
+	border: 1px solid gray;
+	float: left;
+	margin: -1px 0 0 -1px;
+}
+
+#main-content .food .box dl dt {
+	height: 165px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+
+#main-content .food .box dl dt a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#main-content .food .box dl dt i {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+/* 			.box dl dd{
+				text-align: center;
+			} */
+#main-content .food .box dl dd p {
+	height: 16px;
+	line-height: 16px;
+	padding: 16px;
+}
+
+#main-content .food .box dl dd p a {
+	text-decoration: none;
+	font-size: 14px;
+	color: gray;
+}
+
+#main-content .food .box dl dd span {
+	height: 18px;
+	padding-left: 16px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 14px;
+	color: red;
+}

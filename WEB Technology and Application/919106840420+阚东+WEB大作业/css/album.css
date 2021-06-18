@@ -134,6 +134,66 @@ transform:rotate(-8deg);/*图片向左倾倒*/
 	width: 1100px;
 	height: 500px;
 	margin: 0 auto;
-	border: #000000 1px solid;
+	padding-left: 10px;
+/* 	border: #000000 1px solid; */
+}
+	
+#main-content .photo .photoview1{
+	width:640px;
+	height: 450px;
+	padding:10px;
+	margin:10px;
+	text-align: center;
+	border:1px solid #BFBFBF;
+	background-color: papayawhip;
+	border-radius: 15px;
+	box-shadow:10px 10px 10px #999999;/*图片阴影的设置*/
+	float:left;
+}
+#main-content .photo .photoview2{
+	width:640px;
+	height: 450px;
+	padding:10px;
+	margin:10px;
+	text-align: center;
+	border:1px solid #BFBFBF;
+	background-color: paleturquoise;
+	border-radius: 15px;
+	box-shadow:10px 10px 10px #999999;/*图片阴影的设置*/
+	float:left;
+}
+#main-content .photo .textview1{
+	line-height: 28px;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: italic;
+	padding-right: 30px;
+	height: 450px;
+	width:350px;
+	padding:10px;
+	margin:10px;
+	text-align: center;
+	border:1px solid #BFBFBF;
+	background-color: papayawhip;
+	border-radius: 10px;
+	box-shadow:10px 10px 10px #1f4e78;/*图片阴影的设置*/
+	float:left;
+}
+#main-content .photo .textview2{
+	line-height: 28px;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: italic;
+	padding-right: 30px;
+	height: 450px;
+	width:350px;
+	padding:10px;
+	margin:10px;
+	text-align: center;
+	border:1px solid #BFBFBF;
+	background-color: paleturquoise;
+	border-radius: 10px;
+	box-shadow:10px 10px 10px #1f4e78;/*图片阴影的设置*/
+	float:left;
 }
 
