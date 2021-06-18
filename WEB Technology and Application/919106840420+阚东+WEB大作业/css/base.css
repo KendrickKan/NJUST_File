@@ -27,6 +27,7 @@ b,strong{
 #header{
 	width: 100%;
 	border-bottom: 8px solid #1f4e78;
+	background: white;
 /* 	background: black; */
 }
 #header .header-content{

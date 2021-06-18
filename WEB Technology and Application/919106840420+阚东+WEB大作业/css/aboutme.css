@@ -101,7 +101,7 @@ strong {
 #main-content .food .box {
 	width: 1000px;
 	height: 474px;
-	margin: 50px auto 0;
+	margin: 0 auto;
 }
 
 #main-content .food .box dl {
@@ -129,9 +129,6 @@ strong {
 	height: 100%;
 }
 
-/* 			.box dl dd{
-				text-align: center;
-			} */
 #main-content .food .box dl dd p {
 	height: 16px;
 	line-height: 16px;
@@ -145,7 +142,6 @@ strong {
 }
 
 #main-content .food .box dl dd span {
-	height: 18px;
 	padding-left: 16px;
 	line-height: 18px;
 	text-align: center;
