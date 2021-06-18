@@ -84,7 +84,7 @@ b,strong{
 	height: 73px;
 	text-align: center;
 	line-height: 70px;
-	/* background: #dfdfdf; */
+	background: #dfdfdf;
 	margin-top: 0px;
 	border-radius: 10px 10px 0 0;
 /* 	width: 88px;
@@ -100,7 +100,8 @@ b,strong{
 #header .header-content .nav ul li a:hover{
 	color: white;
 	background: #1f4e78;
-	margin-top: 5px;
+	height: 78px;
+	margin-top: -5px;
 }
 #header .header-content .nav ul li a b
 {

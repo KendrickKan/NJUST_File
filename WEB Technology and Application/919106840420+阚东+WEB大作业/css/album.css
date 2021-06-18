@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #89898b;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+b,
+strong {
+	font-weight: normal;
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+}
+
+#main-content .content {
+	/* 44*/
+	width: 100%;
+	height: 500px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+
+#main-content .content .bigView {
+	width: 90%;
+	height: 500px;
+	/*background: blue;*/
+	float: left;
+	overflow: hidden;
+}
+
+#main-content .content .bigView img {
+	width: 100%;
+	height: 500px;
+}
+
+#main-content .content .smallBox {
+	width: 10%;
+	padding-right: 0;
+	height: 500px;
+	float: right;
+
+	/* overflow: hidden; */
+	/* 水平方向: 隐藏滚动条*/
+	overflow-x: hidden;
+	/* 垂直方向: 需要滚动(不需要隐藏)*/
+	/* overflow-y: scroll; */
+}
+
+#main-content .content .smallView {
+	/*width: 64px;*/
+	width: 100%;
+	height: 500px;
+	/*background: purple;*/
+	/*float: right;*/
+	/*overflow: auto;*/
+
+	overflow-x: hidden;
+}
+
+#main-content .content .smallView img {
+	width: 100%;
+	float: left;
+	margin-bottom: 4px;
+	border: 1px solid white;
+}
+
+#main-content .miaodian {
+	width: 45px;
+	height: 270px;
+	position: fixed;
+	left: 0;
+	top: 200px;
+	text-align: center;
+}
+
+#main-content .miaodian a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	background: #1f4e78;
+	border: 1px solid white;
+}
+#main-content .preview{
+	width: 1400px;
+	height: 320px;
+	margin: 0 auto;
+/* 	border: #000000 1px solid; */
+	padding-top: 20px;
+	text-align: center;
+	padding-left: 20px;
+}
+#main-content .preview .preview1 {
+width:234px;
+padding:10px;
+margin:10px;
+border:1px solid #BFBFBF;
+background-color:#FFFFFF;
+box-shadow:10px 10px 10px #999999;/*图片阴影的设置*/
+float:left;
+transform:rotate(8deg);
+}
+#main-content .preview .preview2 {
+width:234px;
+padding:10px;
+margin:10px;
+border:1px solid #BFBFBF;
+background-color:#FFFFFF;
+box-shadow:10px 10px 10px #999999;/*图片阴影的设置*/
+float:left;
+transform:rotate(-8deg);/*图片向左倾倒*/
+}
+
+#main-content .photo{
+	width: 1100px;
+	height: 500px;
+	margin: 0 auto;
+	border: #000000 1px solid;
+}
+
