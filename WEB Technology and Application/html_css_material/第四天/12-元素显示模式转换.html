@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素显示模式转换</title>
+    <style>
+        a {
+            width: 150px;
+            height: 50px;
+            background-color: pink;
+            /* 把行内元素 a 转换为 块级元素 */
+            display: block;
+        }
+
+        div {
+            width: 300px;
+            height: 100px;
+            background-color: purple;
+            /* 把 div 块级元素转换为行内元素 */
+            display: inline;
+        }
+
+        span {
+            width: 300px;
+            height: 30px;
+            background-color: skyblue;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">金星阿姨</a>
+    <a href="#">金星阿姨</a>
+    <div>我是块级元素</div>
+    <div>我是块级元素</div>
+    <span>行内元素转换为行内块元素</span>
+    <span>行内元素转换为行内块元素</span>
+</body>
+
+</html>

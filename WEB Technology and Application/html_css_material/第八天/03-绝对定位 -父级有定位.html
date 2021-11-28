@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绝对定位-父级有定位</title>
+    <style>
+        .yeye {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            background-color: hotpink;
+            padding: 50px;
+        }
+        .father {
+          
+            width: 500px;
+            height: 500px;
+            background-color: skyblue;
+        }
+        .son {
+            position: absolute;
+            left: 30px;
+            bottom: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="yeye">
+            <div class="father">
+                    <div class="son"></div>
+            </div>
+    </div>
+   
+   
+</body>
+</html>

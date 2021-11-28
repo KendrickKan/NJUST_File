@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>边框的练习</title>
+    <style>
+        /* 请给一个 200*200 的盒子，设置上边框为红色，其余边框为蓝色 */
+        div {
+            width: 200px;
+            height: 200px;
+            /* border-top: 1px solid red;
+            border-bottom: 1px solid blue;
+            border-left: 1px solid blue;
+            border-right: 1px solid blue; */
+            /* border包含四条边 */
+            border: 1px solid blue;
+            /* 层叠性 只是层叠了 上边框啊 */
+            border-top: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

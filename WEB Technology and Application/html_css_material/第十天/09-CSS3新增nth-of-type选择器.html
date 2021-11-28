@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3新增选择器nth-type-of</title>
+    <style>
+        ul li:first-of-type {
+            background-color: pink;
+        }
+        ul li:last-of-type {
+            background-color: pink;
+        }
+        ul li:nth-of-type(even) {
+            background-color: skyblue;
+        }
+        /* nth-child 会把所有的盒子都排列序号 */
+        /* 执行的时候首先看  :nth-child(1) 之后回去看 前面 div */
+
+        section div:nth-child(1) {
+            background-color: red;
+        }
+         /* nth-of-type 会把指定元素的盒子排列序号 */
+        /* 执行的时候首先看  div指定的元素  之后回去看 :nth-of-type(1) 第几个孩子 */
+        section div:nth-of-type(1) {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>我是第1个孩子</li>
+        <li>我是第2个孩子</li>
+        <li>我是第3个孩子</li>
+        <li>我是第4个孩子</li>
+        <li>我是第5个孩子</li>
+        <li>我是第6个孩子</li>
+        <li>我是第7个孩子</li>
+        <li>我是第8个孩子</li>
+    </ul>
+    <!-- 区别 -->
+    <section>
+        <p>光头强</p>
+        <div>熊大</div>
+        <div>熊二</div>
+    </section>
+</body>
+
+</html>

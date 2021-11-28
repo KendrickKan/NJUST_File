@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>清除浮动之额外标签法</title>
+    <style>
+        .box {
+            width: 800px;
+            border: 1px solid blue;
+            margin: 0 auto;
+        }
+
+        .damao {
+            float: left;
+            width: 300px;
+            height: 200px;
+            background-color: purple;
+        }
+
+        .ermao {
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .footer {
+            height: 200px;
+            background-color: black;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="damao">大毛</div>
+        <div class="ermao">二毛</div>
+        <div class="ermao">二毛</div>
+        <div class="ermao">二毛</div>
+        <div class="ermao">二毛</div>
+        <!-- <div class="clear"></div> -->
+        <!-- 这个新增的盒子要求必须是块级元素不能是行内元素 -->
+        <span class="clear"></span>
+    </div>
+    <div class="footer"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浮动注意点</title>
+    <style>
+        /* 如果一个子元素浮动了,尽量其他盒子也浮动,这样保证这些子元素一行显示 */
+        .box {
+            width: 900px;
+            height: 300px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+
+        .damao {
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+        }
+
+        .ermao {
+            float: left;
+            width: 200px;
+            height: 150px;
+            background-color: red;
+        }
+
+        .sanmao {
+            float: left;
+            width: 300px;
+            height: 240px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="damao">大毛</div>
+        <div class="ermao">二毛</div>
+        <div class="sanmao">三毛</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新浪导航</title>
+    <style>
+        .nav {
+            height: 41px;
+            border-top: 3px solid #ff8500;
+            border-bottom: 1px solid #edeef0;
+            background-color: #fcfcfc;
+            line-height: 41px;
+        }
+        .nav a {
+            /* a属于行内元素 此时必须要转换 行内块元素 */
+            display: inline-block;
+            height: 41px;
+            padding: 0 20px;
+            font-size: 12px;
+            color: #4c4c4c;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #eee;
+            color: #ff8500;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">新浪导航</a>
+        <a href="#">手机新浪网</a>
+        <a href="#">移动客户端</a>
+        <a href="#">微博</a>
+        <a href="#">三个字</a>
+    </div>
+</body>
+</html>

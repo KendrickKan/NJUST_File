@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浮动特性1</title>
+    <style>
+        /* 设置了浮动（float）的元素会：
+        1. 脱离标准普通流的控制（浮）移动到指定位置（动）。
+        2.浮动的盒子不在保留原先的位置 */
+        .box1 {
+            float: left;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .box2 {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(0, 153, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">浮动的盒子</div>
+    <div class="box2">标准流的盒子</div>
+</body>
+
+</html>

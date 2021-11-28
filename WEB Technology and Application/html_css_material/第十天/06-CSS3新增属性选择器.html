@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3新增属性选择器</title>
+    <style>
+        /* 必须是input 但是同时具有 value这个属性 选择这个元素  [] */
+        /* input[value] {
+            color:pink;
+        } */
+        /* 只选择 type =text 文本框的input 选取出来 */
+        input[type=text] {
+            color: pink;
+        }
+        /* 选择首先是div 然后 具有class属性 并且属性值 必须是 icon开头的这些元素 */
+        div[class^=icon] {
+            color: red;
+        }
+        section[class$=data] {
+            color: blue;
+        }
+        div.icon1 {
+            color: skyblue;
+        }
+        /* 类选择器和属性选择器 伪类选择器 权重都是 10 */
+    </style>
+</head>
+<body>
+    <!-- 1. 利用属性选择器就可以不用借助于类或者id选择器 -->
+    <!-- <input type="text" value="请输入用户名">
+    <input type="text"> -->
+    <!-- 2. 属性选择器还可以选择属性=值的某些元素 重点务必掌握的 -->
+    <input type="text" name="" id="">
+    <input type="password" name="" id="">
+    <!-- 3. 属性选择器可以选择属性值开头的某些元素 -->
+    <div class="icon1">小图标1</div>
+    <div class="icon2">小图标2</div>
+    <div class="icon3">小图标3</div>
+    <div class="icon4">小图标4</div>
+    <div>我是打酱油的</div>
+    <!-- 4. 属性选择器可以选择属性值结尾的某些元素 -->
+    <section class="icon1-data">我是安其拉</section>
+    <section class="icon2-data">我是哥斯拉</section>
+    <section class="icon3-ico">哪我是谁</section>
+
+</body>
+</html>

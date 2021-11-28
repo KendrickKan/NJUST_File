@@ -1,0 +1,7 @@
+﻿  procdata.cpp
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(270,14): warning C4101: “th”: 未引用的局部变量
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(269,14): warning C4101: “uh”: 未引用的局部变量
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(273,10): warning C4101: “sport”: 未引用的局部变量
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(272,8): warning C4101: “ip_len”: 未引用的局部变量
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(273,17): warning C4101: “dport”: 未引用的局部变量
+  KD_Sniffer.vcxproj -> D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\x64\Debug\KD_Sniffer.exe

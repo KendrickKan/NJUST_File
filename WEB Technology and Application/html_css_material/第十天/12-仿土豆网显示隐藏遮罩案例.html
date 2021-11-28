@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪元素选择器使用场景2-仿土豆网显示隐藏遮罩案例</title>
+    <style>
+        .tudou {
+            position: relative;
+            width: 444px;
+            height: 320px;
+            background-color: pink;
+            margin: 30px auto;
+        }
+
+        .tudou img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .tudou::before {
+            content: '';
+            /* 隐藏遮罩层 */
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .4) url(images/arr.png) no-repeat center;
+        }
+
+        /* 当我们鼠标经过了 土豆这个盒子，就让里面before遮罩层显示出来 */
+        .tudou:hover::before {
+            /* 而是显示元素 */
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tudou">
+        <img src="images/tudou.jpg" alt="">
+    </div>
+    <div class="tudou">
+        <img src="images/tudou.jpg" alt="">
+    </div>
+    <div class="tudou">
+        <img src="images/tudou.jpg" alt="">
+    </div>
+    <div class="tudou">
+        <img src="images/tudou.jpg" alt="">
+    </div>
+</body>
+
+</html>

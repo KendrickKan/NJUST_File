@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文字围绕浮动元素的妙用</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 300px;
+            height: 70px;
+            background-color: pink;
+            margin: 0 auto;
+            padding: 5px;
+        }
+        .pic {
+            float: left;
+            width: 120px;
+            height: 60px;
+            margin-right: 5px;
+        }
+        .pic img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="pic">
+            <img src="images/img.png" alt="">
+        </div>
+        <p>【集锦】热身赛-巴西0-1秘鲁 内马尔替补两人血染赛场</p>
+    </div>
+</body>
+</html>
