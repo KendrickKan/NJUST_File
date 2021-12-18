@@ -1,7 +1,6 @@
-﻿  procdata.cpp
-D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(270,14): warning C4101: “th”: 未引用的局部变量
-D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(269,14): warning C4101: “uh”: 未引用的局部变量
-D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(273,10): warning C4101: “sport”: 未引用的局部变量
-D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(272,8): warning C4101: “ip_len”: 未引用的局部变量
-D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\procdata.cpp(273,17): warning C4101: “dport”: 未引用的局部变量
+﻿  main.cpp
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\main.cpp(136,21): warning C4244: “=”: 从“SOCKET”转换到“unsigned int”，可能丢失数据
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\main.cpp(147,27): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\main.cpp(157,28): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\KD_Sniffer\main.cpp(162,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   KD_Sniffer.vcxproj -> D:\myself\NJUST作业\大三上\网络编程\网络编程大作业\KD_Sniffer\x64\Debug\KD_Sniffer.exe
