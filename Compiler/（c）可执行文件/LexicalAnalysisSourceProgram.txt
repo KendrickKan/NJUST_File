@@ -1,0 +1,13 @@
+# include < iostream >
+int main ( )
+{
+	int a123 ;
+	int ab = 0x12ff ;
+	int _bc = 1 ;
+	int _bcsd12 = 2 ;
+	int _dsf_dfa12_ = 123 ;
+	aa = 0.123i ;
+	_bc ++ ;
+	_bcsd12 = 10.23e+324 ;
+	return 0 ;
+}
